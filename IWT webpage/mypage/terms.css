@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/pic.jpg");
+    background-size: cover;
+
+}
+
+.background {
+
+    filter: blur(2px);
+}
+
+
+
+.container {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

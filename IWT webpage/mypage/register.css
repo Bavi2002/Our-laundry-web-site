@@ -1,0 +1,247 @@
+/*.center-box{
+    height: 80px;
+    width: 50px;
+    background-color: azure;
+    border: 2px solid;
+    text-align: center;
+    padding: 20%;
+    margin-left: 30%;
+    margin-top: 5%;
+}*/
+
+.down{
+    margin-top: 10%;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(images/dress.jpeg.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+.center-box{
+    width: 470px;
+    height: 500px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(164,255,253,1) 50%, rgba(208,212,252,1) 100%);    border: 2px solid whitesmoke;
+    padding: 40px;
+    padding-right: 27px;
+    margin-left: 30%;  
+    margin-top: 50px;  
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional box shadow */
+
+    /* background: linear-gradient(90deg, rgba(229,252,255,1) 0%, rgba(254,223,255,1) 50%, rgba(255,255,226,1) 100%); */
+
+}
+/* heading */
+.regis{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.name{
+    margin-bottom: -15px;
+   
+} 
+name{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; 
+
+} 
+input[type="text"] {
+    width: 170px;/* Set a specific width for the text inputs */
+    padding: 8px; /* Add padding to the text inputs */ 
+    margin-bottom: 10px; 
+    border:none; 
+    background:transparent; 
+    outline: none ; 
+    border-bottom: solid 1px; 
+}
+/* lastname */
+#lastname{
+    width: 200px;
+    margin-left: 5px;
+}
+
+
+.address{
+    margin-bottom: -15px;
+}
+ad{
+    display:block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+input[type="address"] {
+    width: 430px;/* Set a specific width for the text inputs */
+    padding: 5px; /* Add padding to the text inputs */ 
+    margin-bottom: 10px; 
+    height: 30px;
+    border:none;
+    background:transparent;
+    outline: none ;
+    border-bottom: solid 1px;
+
+
+}
+
+
+.Contact-no{
+    margin-bottom: -5px;
+
+}
+co{
+    display: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+input[type="tel"]{
+    width: 150px;
+    padding:8px;
+    margin-left: 75px;
+    height: 5px;
+    border:none;
+    background:transparent;
+    outline: none ;
+    border-bottom: solid 1px;
+
+}
+
+
+.Email{
+    margin-bottom: -5px;
+}
+mail{
+    display: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+input[type="Email"]{
+    width: 250px;
+    height: 8px;
+    padding: 8px;
+    margin-left: 43%;
+    border:none;
+    background:transparent;
+    outline: none ;
+    border-bottom: solid 1px;
+
+}
+
+
+.password{
+    margin-bottom: -5px;
+}
+password{
+    display:10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+#password{
+    width:150px;
+    height:8px;
+    padding:8px;
+    margin-left: 110px; 
+    border:none;
+    background:transparent;
+    outline: none ;
+    border-bottom: solid 1px;
+
+}
+ #Confirm-password{
+    display:10px;
+    width:150px;
+    height:8px;
+    padding:2px;
+    margin-left: 55px; 
+    border:none;
+    background:transparent;
+    outline: none ;
+    border-bottom: solid 1px;
+ }
+
+
+
+
+conpass{
+    font-weight: bold;
+    margin-bottom: 2px;
+
+}
+/* .conp{
+    margin-right: ;
+} */
+/* input[type="password"]{
+    width:150px;
+    height:8px;
+    padding:8px;
+    margin-left: 80px;
+
+
+} */
+
+.remember-me {
+    flex-grow: 1;
+    display: flex;
+    color: darkblue;
+    margin-right: 230px;
+    margin-top: -5px;
+}
+.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}
+.showpass{
+    flex-grow: 1;
+    display: flex;
+    color: darkblue;
+    margin-left: 230px;
+    margin-top: -5px;
+}
+.showpass input[type="checkbox"]{
+    margin-left: 110px;
+    margin-top:-4%;
+}
+sh{
+    margin-top:-6%;
+}
+
+
+.button button {
+    width: 170px; /* Set the desired width for the button */
+    height: 40px; /* Set the desired height for the button */
+    font-size: 16px; /* Set the desired font size for the button text */
+    background-color: #3498db; /* Set the background color for the button */
+    color: #fff; /* Set the text color for the button */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s; 
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.button button:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+}
+
+
+
+.have-account{
+    text-align: center ;
+    margin-top: 3%;
+    font-size: medium;
+}
+
+.terms{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 12px;
+}
+
+/* .thanu{
+    margin-left: 100%;
+} */
